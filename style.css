@@ -64,8 +64,3 @@ body {
     max-width: 80%;
     max-height: 80%;
 }
-.modal-contenido {
-    max-width: 80%;
-    max-height: 80%;
-    transition: transform 0.2s ease;
-}
