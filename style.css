@@ -101,3 +101,24 @@ body {
     font-size: 40px;
     cursor: pointer;
 }
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contenido {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain; /* IMPORTANTE */
+    transition: transform 0.2s ease;
+}
