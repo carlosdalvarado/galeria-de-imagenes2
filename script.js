@@ -34,3 +34,12 @@ modal.addEventListener("click", (e) => {
         modal.style.display = "none";
     }
 });
+imagenes.forEach(img => {
+    img.addEventListener("click", () => {
+        modal.style.display = "flex";
+        imagenModal.src = img.src;
+
+        escala = 1;
+        imagenModal.style.transform = `scale(${escala})`;
+    });
+});
