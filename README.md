@@ -1,1 +1,0 @@
-# galeria-de-imagenes2
